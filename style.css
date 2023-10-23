@@ -714,6 +714,7 @@ a:hover {
 
 .case-study-images li.show .img-hero-background {
 	opacity: 1;
+	z-index: 200;
 }
 
 .case-study-images li .case-study-title {

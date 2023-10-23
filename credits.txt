@@ -4,6 +4,7 @@ Thanks to all these individuals for the amazing UI elements:
 - Lenmorld - https://codepen.io/lenmorld 
 - Lopis - https://codepen.io/lopis
 - Ahmed - https://uiverse.io/profile/ahmed150up
+- Javier Roca - https://uiverse.io/profile/Javierrocadev
 - Andrew - https://codepen.io/walpolea
 
 Incase I've forgotten to give you credit, please make a PR modifying this file and also include what element was used on the website in your PR message.

@@ -1,0 +1,4 @@
+infra/.terraform/*
+infra/*.tfvars
+infra/.terraform.lock.hcl
+infra/backend.tf

@@ -17,12 +17,14 @@ jobs:
       uses: azure/CLI@v1
       with:
         inlineScript: |
-            az storage blob upload-batch --account-name "valwebsitedata" --overwrite  --auth-mode key -d '$web' -s .
+            az storage blob upload-batch --account-name "valwebsitedata" --overwrite  --auth-mode key -d '$web' -s ./web
+    
     - name: Purge CDN endpoint
       uses: azure/CLI@v1
       with:
         inlineScript: |
            az cdn endpoint purge --content-paths  "/*" --profile-name "valswebsite" --name "valswebsite" --resource-group "personal-website"
+  
   # Azure logout
     - name: logout
       run: |

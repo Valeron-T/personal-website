@@ -3,11 +3,14 @@ Developing this website using various cloud services to learn the basics of clou
 
 Current setup as follows:
 
-![cloud](https://github.com/Valeron-T/personal-website/blob/main/assets/cloud.png)
+![cloud](https://raw.githubusercontent.com/Valeron-T/personal-website/main/web/assets/cloud.png)
 
 Upcoming changes:
 - ~~Create a CI pipeline to automatically push changes in git to azure blob storage.~~ 
 - Create a IaC template to be able to migrate the entire azure deployment if required.
+    - ~~Storage~~
+    - Azure Functions
+    - CDN
 
 Depending on service cost, would consider other hosting options for long term.
 
